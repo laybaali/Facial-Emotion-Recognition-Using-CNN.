@@ -1,7 +1,100 @@
-# Facial-Emotion-Recognition-Using-CNN.
-Emotions are an important part of human communication. As AI becomes more integrated into our daily lives,whether in healthcare, finance, or education , giving machines the ability to understand emotions can lead to much more effective and empathetic interactions. Our motivation is to bridge the communication gap between humans and machines by enabling systems to understand facial expressions.
+# Facial Emotion Recognition using CNN
 
-Facial emotion recognition presents several technical and practical challenges. The human face is highly complex and varies significantly between individuals due to factors such as ethnicity, age, gender, and facial structure. In addition, environmental conditions such as lighting, image quality, background clutter, and facial obstructions (e.g. glasses, masks, or hair) further complicate the task. Subtle  expressions such as a slight smirk or furrowed brow can be difficult even for humans to interpret, let alone machines. Furthermore, emotion is a subjective and context-dependent phenomenon, making it difficult to create universal classification standards. Despite these challenges, accurate emotion recognition remains a highly rewarding task, with impactful applications in mental health diagnostics, driver safety systems, and 
-human-robot interaction.
+A deep learning project that uses a **Convolutional Neural Network (CNN)** to classify facial images into **7 different emotion categories**.
 
-The aim of this project is to develop a deep learning-based facial emotion recognition system using Convolutional Neural Networks. The system should be capable of accepting a facial image as input and predicting the corresponding emotional state. We intend to classify facial expressions into common emotion categories such as Happy, Sad, Angry, Surprised, Fearful, Disgusted, and Neutral. Our goal is to design a model that generalizes well across diverse facial features and environmental conditions, which makes it suitable for real-world applications. We will train and evaluate our system on widely used benchmark datasets, ensuring that the results are comparable with existing solutions in the field.
+## Project Overview
+
+Facial Emotion Recognition (FER) is a computer vision task that aims to identify human emotions from facial expressions. In this project, a CNN-based image classification model was developed to automatically recognize emotions from facial images.
+
+The project covers the complete workflow, from image preprocessing and model training to evaluation of classification performance.
+
+## Objectives
+
+* Build a CNN model for facial emotion classification
+* Preprocess facial images for deep learning
+* Train and evaluate the model on multiple emotion classes
+* Analyze model performance using classification metrics
+* Understand the challenges involved in recognizing emotions from facial expressions
+
+## Approach
+
+The project follows these major steps:
+
+1. **Data Preparation**
+
+   * Organized facial images according to emotion categories
+   * Prepared the dataset for model training and evaluation
+
+2. **Image Preprocessing**
+
+   * Resized images to a consistent input size
+   * Normalized pixel values
+   * Prepared training data for CNN-based learning
+
+3. **CNN Model Development**
+
+   * Built a Convolutional Neural Network for image classification
+   * Used convolutional and pooling layers to learn facial features
+   * Added fully connected layers for final emotion classification
+
+4. **Model Training**
+
+   * Trained the CNN on the prepared facial image dataset
+   * Monitored training and validation performance
+
+5. **Evaluation**
+
+   * Evaluated the trained model on unseen data
+   * Achieved approximately **68% classification accuracy**
+
+## Emotion Classes
+
+The model performs classification across **7 emotion categories** represented in the dataset.
+
+## Technologies Used
+
+* **Python**
+* **TensorFlow / Keras**
+* **NumPy**
+* **Pandas**
+* **Matplotlib**
+* **Scikit-learn**
+* **Convolutional Neural Networks (CNN)**
+* **Computer Vision**
+
+## Results
+
+The CNN achieved approximately **68% accuracy** on the evaluation data.
+
+The project also provided practical experience with:
+
+* Image data preprocessing
+* CNN architecture development
+* Multi-class classification
+* Model evaluation
+* Training/validation analysis
+* Applying deep learning to computer vision problems
+
+## Project Structure
+
+```text
+Facial-Emotion-Recognition/
+│
+├── 1.Facial_Emotion_Recognition_Prediction
+└── README.md
+```
+
+## Future Improvements
+
+Potential improvements to the project include:
+
+* Experimenting with deeper CNN architectures
+* Transfer learning using pretrained computer vision models
+* Hyperparameter tuning
+* Evaluating performance using precision, recall, F1-score and confusion matrices
+* Increasing the diversity and size of the training dataset
+
+## Author
+
+**Layba Ali**
+MSc Data Science
